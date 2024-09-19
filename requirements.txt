@@ -7,4 +7,6 @@ catboost
 xgboost
 Flask
 
--e .
+# -e .
+#commented because we don't want to build our packages everytime
+#uncomment only at the time of deployment/e2e testing
